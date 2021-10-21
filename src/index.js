@@ -1,8 +1,9 @@
 import React from 'react';
 import { render } from "react-dom";
+import PlacesList from './placesList';
 
 const App = () => (
-  <div>this is app</div>
+  <PlacesList />
 );
 
 render(<App />, document.getElementById('root'));
